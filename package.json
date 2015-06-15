@@ -1,0 +1,25 @@
+{
+  "name": "Grunt",
+  "version": "1.0.0",
+  "description": "Test SMACSS App",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bohdan Hulchack",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-php": "^1.5.0",
+    "grunt-sass": "^0.18.1",
+    "grunt-spritesmith": "^4.5.3",
+    "grunt-webfont": "^0.5.3",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.1"
+  }
+}

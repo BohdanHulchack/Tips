@@ -1,0 +1,13 @@
+.pagination {
+	& > li {
+		line-height: 1.4;
+	}
+	& > li a:focus {
+		background-color: transparent !important;
+	}
+	.current {
+		font-size: 18px;
+		line-height: 1;
+		text-decoration: none;
+	}
+}

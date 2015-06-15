@@ -1,0 +1,99 @@
+.feed-back {
+	.mb20 {
+		margin-bottom: 20px !important;
+	}
+
+	& > form {
+		margin-top: 30px;
+	}
+	&--heading {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	&--input {
+		float: left;
+		width: 49%;
+		height: 40px;
+		padding: 10px 0 10px 15px;
+		font-style: italic;
+
+		&--theme {
+			width: 100%;
+			height: 40px;
+			padding: 10px 0 10px 15px;
+			font-style: italic;
+		}
+	}
+
+	&--text {
+		max-width: 100%;
+		min-width: 100%;
+		width: 100%;
+
+		min-height: 140px;
+		max-height: 500px;
+		height: 140px;
+
+		padding: 10px 0 10px 15px;
+
+		font-family: inherit;
+		font-style: italic;
+	}
+
+	&--file {
+		width: 48%;
+		height: 40px;
+		display: block;
+		position: relative;
+
+		&::before {
+			content: 'Прикрепить файл';
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			height: 100%;
+			width: 100%;
+			padding: 8px 0;
+
+			cursor: pointer;
+			color: #c3c3c3;
+			font-size: 18px;
+			text-align: center;
+			text-transform: uppercase;
+
+			background-color: #f9f9f9;
+			border: 2px dashed #c3c3c3;
+			@media #{$small-only} {
+				font-size: 14px;
+			}
+		}
+	}
+
+
+
+	.button {
+		width: 48%;
+		height: 40px;
+		font-size: 18px;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+}
+
+
+
+
+.email-815 > input {
+	float: right;
+}
+
+
+.text-146 > input {
+	margin-bottom: 20px;
+}
+.wpcf7-submit {
+	height: 40px;
+	width: 30%;
+}

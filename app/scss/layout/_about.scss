@@ -1,0 +1,18 @@
+.l-content__about {
+	@extend .l-content;
+		& > p {
+			text-align: justify;
+		}
+	.about {
+		&--author-photo {
+			padding: 0 0 10px 10px;
+			width: 41%;
+			max-width: 240px;
+			height: auto;
+		}
+		&--author-data {
+			display: block;
+			margin: 20px 0;
+		}
+	}
+}

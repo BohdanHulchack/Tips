@@ -1,0 +1,59 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-sprite_pancakes {
+  background-image: url(../../img/sprite.png);
+  background-position: -609px 0px;
+  width: 37px;
+  height: 26px;
+}
+.icon-sprite_soc_fb {
+  background-image: url(../../img/sprite.png);
+  background-position: -522px -56px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_g+ {
+  background-image: url(../../img/sprite.png);
+  background-position: -435px -143px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_lj {
+  background-image: url(../../img/sprite.png);
+  background-position: -348px -230px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_od {
+  background-image: url(../../img/sprite.png);
+  background-position: -261px -317px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_rss {
+  background-image: url(../../img/sprite.png);
+  background-position: -174px -404px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_tw {
+  background-image: url(../../img/sprite.png);
+  background-position: -87px -491px;
+  width: 57px;
+  height: 57px;
+}
+.icon-sprite_soc_vk {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -578px;
+  width: 57px;
+  height: 57px;
+}

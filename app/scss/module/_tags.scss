@@ -1,0 +1,31 @@
+.tags {
+	@extend .custom-sidebar;
+
+	&--title {
+		@extend .custom-sidebar--title;
+
+	}
+	&--list {
+		margin-top: 10px;
+		margin-left: 18px;
+	}
+	&--one-tag {
+		position: relative;
+		display: inline-block;
+		width: 49%;
+		padding-left: 10px;
+		vertical-align: top;
+
+		& > a {
+			color: $steel;
+			font-size: 13px;
+		}
+
+		& > i {
+			position: absolute;
+			left: -12px;
+			top: 4px;
+			color: #3399cc;
+		}
+	}
+}

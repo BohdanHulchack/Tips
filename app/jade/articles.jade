@@ -1,0 +1,132 @@
+doctype html
+html(lang="ru")
+	|<?php
+	|  include 'functions.php';
+	|  head();
+	|?>
+
+	body
+		|<?php label(); ?>
+		.page_wrapper
+			|<?php page_header(); ?>
+			main
+
+				|<?php adv(); ?>
+				.row
+					.l-content__articles.articles.small-20.medium-12.large-13.left
+						p Приветствую Вас, уважаемый посетитель моего блога по предоставлению ответов на множество вопросов, которые тревожат людей или не дают им возможности раскрыть свои таланты. В этом разделе собраны все статьи написаны мною с момента основания блога. Надеюсь, Вы найдете полезные ответы на свои вопросы, а так же, откроете новые возможности, о которых раньше даже и не догадывались!
+						h3.articles--header Публикации:
+						ul
+							li.articles--cat
+								i.icon-blog
+								a(href="") Блоговедение
+								ul.articles--cat--list
+									li
+										a(href="") 7 ошибок блоггера
+									li
+										a(href="") Дачные хитрости
+									li
+										a(href="") Что делать , чтоб рассада томатов не вытягивалась?
+							li.articles--cat
+								i.icon-home
+								a(href="") Дом
+								ul.articles--cat--list
+									li
+										a(href="") Разбился градусник? Как собрать ртуть
+									li
+										a(href="") Удаление пыли без химии
+							li.articles--cat
+								i.icon-food
+								a(href="") Еда
+								ul.articles--cat--list
+									li
+										a(href="") Какие продукты нельзя есть натощак - ваш идеальный завтрак
+							li.articles--cat
+								i.icon-money
+								a(href="") Заработок
+								ul.articles--cat--list
+									li
+										a(href="") Блинный Дом - вечная игра с выводом денег
+									li
+										a(href="") Заработок без вложений или как заработать на своем браузере?
+									li
+										a(href="") Как заработать в играх с выводом денег. Вся правда
+									li
+										a(href="") Обзор нововведений в проекте Блинный Дом - Мельница
+							li.articles--cat
+								i.icon-life
+								a(href="") Из жизни
+								ul.articles--cat--list
+									li
+										a(href="") Из медика в блоггеры
+							li.articles--cat
+								i.icon-internet
+								a(href="") Интернет
+								ul.articles--cat--list
+									li
+										a(href="") Яндекс Деньги. Или как пройти идентификацию Яндекс кошелька
+							li.articles--cat
+								i.icon-news
+								a(href="") Новости
+								ul.articles--cat--list
+									li
+										a(href="") Задачи на Май. План действий
+									li
+										a(href="") Мое участие в конкурcе на лучший блог по мнению Isif-life.ru
+									li
+										a(href="") Первая запись на блоге
+									li
+										a(href="") С праздником Дня Победы
+									li
+										a(href="") Старт денежных конкурсов на блоге tips-life.ru
+							li.articles--cat
+								i.icon-good
+								a(href="") Полезные советы
+								ul.articles--cat--list
+									li
+										a(href="") Загрузочная флешка? Не проблема
+									li
+										a(href="") Как быстро сделать снимок экрана?
+									li
+										a(href="") Как начинать работу с понедельника
+									li
+										a(href="") Как удалить жвачку с одежды
+							li.articles--cat
+								i.icon-book
+								a(href="") Саморазвитие
+								ul.articles--cat--list
+									li
+										a(href="") Откладываешь на потом - ты теряешь жизнь
+
+						h4.articles--header Страницы
+						ul.articles--sitemap
+							li
+								a(href="") Интересное на блоге tips-life.ru
+							li
+								a(href="") Обратная связь
+							li
+								a(href="") Конкурсы
+							li
+								a(href="") Реклама
+							li
+								a(href="") Об авторе
+							li
+								a(href="") Все статьи блога
+
+					.l-sidebar.small-20.medium-7.large-6.columns.right
+						|<?php searchbar(); ?>
+						|<?php subscribe(); ?>
+						|<?php tags(); ?>
+						|<?php top_authors(); ?>
+						|<?php youtube_subscribe(); ?>
+			|<?php footer(); ?>
+
+
+
+
+
+
+
+
+
+

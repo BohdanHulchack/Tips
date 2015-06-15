@@ -1,0 +1,40 @@
+doctype html
+html(lang="ru")
+	|<?php
+	|  include 'functions.php';
+	|  head();
+	|?>
+
+	body
+		|<?php label(); ?>
+		.page_wrapper
+			|<?php page_header(); ?>
+			main
+
+				|<?php adv(); ?>
+				.row
+					.l-content.feed-back.small-20.medium-12.large-13.left
+						h2.feed-back--heading Дорогие друзья, если Вы хотите мне написать, то воспользуйтесь формой обратной связи, которую видите ниже:
+						form
+							input(type="text", placeholder="Введите Ваше имя").feed-back--input.mb20
+							input(type="email", placeholder="Введите свой e-mail").feed-back--input.mb20
+							input(type="text", placeholder="Тема").feed-back--input--theme.mb20
+							textarea(placeholder="Текст").feed-back--text.mb20
+							input(type="file" id="file").feed-back--file.left
+							button.button.right Отправить
+					.l-sidebar.small-20.medium-7.large-6.columns.right
+						|<?php searchbar(); ?>
+						|<?php subscribe(); ?>
+						|<?php tags(); ?>
+						|<?php top_authors(); ?>
+						|<?php youtube_subscribe(); ?>
+			|<?php footer(); ?>
+
+
+
+
+
+
+
+
+

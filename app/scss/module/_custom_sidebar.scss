@@ -1,0 +1,21 @@
+.custom-sidebar {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	border: 1px solid #3598db;
+
+	&--title {
+		display: block;
+		height: 40px;
+		padding: 10px;
+
+		color: #fff;
+		font-weight: 400;
+		font-size: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		background-color: #3399cc;
+	}
+}
+
+

@@ -1,0 +1,28 @@
+.adv {
+	padding: 2%;
+	padding-left: 3%;
+	background-color: #fff;
+	@media #{$small-only} { 
+		display: none;
+	}
+	&--text {
+		display: inline-block;
+
+		font-size: 18px;
+		font-weight: bold;
+		color: $primary-color;
+		&:hover, &:focus, &:active {
+			color: $primary-color;
+		}
+	}
+
+	&--proposal {
+		float: right;
+		display: inline-block;
+		padding: 2px 0;
+
+		color: $steel;
+		font-size: 12px;
+
+	}
+}

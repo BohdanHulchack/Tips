@@ -1,0 +1,52 @@
+@import "../base/settings";
+
+
+.l-header {
+	padding: 17px 0;
+	background: rgba(255,255,255, 0.7);
+
+	@media #{$small-only} {
+		background: rgba(255,255,255, 0.9);
+	}
+
+	&--menu {
+		display: block;
+		width: 99%;
+		margin: 0 auto;
+		list-style-type: none;
+
+		& > li {
+			display: inline-block;
+			@media #{$small-only} {
+				display: block;
+			}
+
+			& > a {
+				padding: 10px 10px;
+				font-size: 1.1rem;
+				font-weight: bold;
+				text-decoration: none;
+				text-transform: uppercase;
+				border-left: 1px solid $steel;
+
+					@media #{$small-only} {
+						border-left: 0px;
+					}
+					@media #{$medium-only} {
+						padding: 10px 4px;
+						font-size: 1rem;
+					}
+
+				&:hover, &:focus, &:active {
+					color: rgba(102,102,102, 0.8);
+				}
+			}
+		}
+
+			&:nth-child(1) > a{
+				border: 0;
+			}
+	}
+}
+
+

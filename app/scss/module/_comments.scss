@@ -1,0 +1,131 @@
+#commentators_block {
+	background-color: #fff;
+}
+.mc-comment-list {
+	list-style-type: none;
+}
+#commentators_block {
+	ul {
+		list-style-type: none;
+	}
+	& > ul {
+		margin: 0 5px;
+	}
+}
+.comment-author {
+	padding: 0 5px 0 5px;
+	border: 1px solid #3399cc;
+	margin-top: -1px;
+	margin-right: -1px;
+	& > p {
+		text-align: justify;
+	}
+}
+
+
+
+.comment-link {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #3399cc;
+}
+
+.listen-left-avatar {
+	float: left;
+  margin: 5px 10px 5px 5px;
+}
+
+
+.reply {
+	@extend .icon-art_date;
+		clear: both;
+		padding-top: 7px;
+	    font-family: 'icons';
+    speak: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 5px;
+}
+.reply > span {
+	font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.date_link {
+	margin-left: 5px;
+}
+
+.comment_form_block {
+	table {
+		width: 100%;
+		td {
+			@media #{$medium-only} {
+				display: block;
+				width: 100%;
+			}
+			@media #{$small-only} {
+				display: block;
+				width: 100%;
+			}
+		}
+		input {
+			width: 183px;
+			border: 1px solid #3399cc;
+			height: 40px;
+			padding: 5px;
+			padding-left: 10px;
+			@media #{$medium-only} {
+				width: 100%;
+			}
+			@media #{$small-only} {
+				width: 100%;
+			}
+		}
+	}
+}
+.comment-form table{
+	margin-top: 15px;
+	border: 0;
+}
+
+.comment {
+	margin: 10px 0;
+}
+
+.newtextarea {
+	textarea {
+		margin: 5px;
+		margin-top: 0;
+		padding: 5px;
+		width: 98%;
+		max-width: 98%;
+		min-height: 150px;
+		border: 1px solid #3399cc;
+	}
+}
+#smile-panel {
+	margin: 5px;
+}
+
+.form-submit {
+	#submit {
+		cursor: pointer;
+		background-color: #3399cc;
+		width: 35%;
+    height: 40px;
+    margin: 5px 0 10px 5px;
+    font-weight: 300;
+    font-size: 20px;
+    color: $white;
+    border: 0;
+    transition: background-color 300ms ease-out;
+    &:hover, &:focus, &:active {
+    	background-color: #5cadd6;
+    }
+	}
+}

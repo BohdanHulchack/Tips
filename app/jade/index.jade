@@ -1,0 +1,28 @@
+doctype html
+html(lang="ru")
+	|<?php
+	|  include 'functions.php';
+	|  head();
+	|?>
+
+	body
+		|<?php label(); ?>
+		.page_wrapper
+			|<?php page_header(); ?>
+			main
+
+				|<?php adv(); ?>
+				.row
+					.l-content.index.articles.small-20.medium-12.large-13.left
+						|<?php article(); ?>
+						|<?php article(); ?>
+						|<?php pagination(); ?>
+					.l-sidebar.small-20.medium-7.large-6.columns.right
+						|<?php searchbar(); ?>
+						|<?php subscribe(); ?>
+						|<?php tags(); ?>
+						|<?php top_authors(); ?>
+						|<?php youtube_subscribe(); ?>
+			|<?php footer(); ?>
+		.footer_bg
+

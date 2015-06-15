@@ -1,0 +1,81 @@
+@import "../base/settings";
+
+.label {
+	position: absolute;
+	top: 10px;
+	left: 10%;
+
+	display: inline-block;
+	height: 90px;
+	padding: 11px 40px 10px 130px;
+
+
+	text-decoration: none;
+	background: url('../img/logo.png') no-repeat;
+	background-size: contain;
+	@media #{$small-only} {
+		left: 2%;
+		padding: 7px 20px 10px 60px;
+
+	}
+	@media #{$medium-only} {
+		left: 5%;
+		font-size: 18px;
+	}
+	&--heading {
+		color: $white;
+		font-weight: 100;
+		margin-bottom: 4px;
+		@media #{$medium-only} {
+			font-size: 26px;
+		}
+		@media #{$small-only} {
+			margin-bottom: 0;
+		}
+	}
+
+	&--decription {
+		color: $white;
+		font-weight: 300;
+			@media #{$medium-only} {
+				font-size: 16px;
+			}
+			@media #{$small-only} {
+				font-size: 14px;
+			}
+	}
+}
+
+
+
+
+
+.l-sidebar {
+	margin-right: 10px;
+	@media #{$small-only} {
+		padding-left: 20px;
+	}
+}
+
+.l-content {
+	padding: 20px 0 20px 30px;
+
+	@media #{$small-only} {
+		padding: 20px 10px 20px 10px;
+	}
+}
+
+.page_wrapper {
+	position: relative;
+	display: block;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 500px;
+		@media #{$medium-only} {
+			padding-top: 400px;
+		}
+		@media #{$small-only} {
+			padding-top: 200px;
+		}
+}

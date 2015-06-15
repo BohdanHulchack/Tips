@@ -1,0 +1,5 @@
+// Для шрифта
+@mixin font($style: 100, $size: $rem-base, $family: $defaultFamily, $color: #000) {
+  font: $style $size $family;
+  color: $color;
+}

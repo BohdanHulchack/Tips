@@ -1,0 +1,12 @@
+{
+  "name": "Cash-and-Go",
+  "description": "Cash and Go",
+  "author": "Bohdan Hulchack <b.hulchak@delfit.com>",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+  }
+}

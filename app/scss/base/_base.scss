@@ -1,0 +1,80 @@
+
+html {
+	height: auto;
+}
+
+body {
+	position: relative;
+	min-width: 345px;
+	background-image: url(../img/header_bg.png), url(../img/bg.jpg);
+	background-repeat: no-repeat, repeat;
+	background-size: 100% auto, 20%;
+	background-position: top right, top right;
+}
+.footer_bg {
+	position: absolute;
+	bottom: 0;
+	min-width: 345px;
+	background-image: url(../img/footer_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: left bottom;
+	height: 400px;
+  z-index: -1;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	line-height: 1.3;
+}
+
+main {
+	background-color: #f9f9f9;
+}
+
+input[type="text"] {
+	margin: 0;
+}
+
+input[type="text"]:-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="text"]::-webkit-input-placeholder {
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+input, textarea, button {
+	&:focus,
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+ul {
+	margin: 0;
+}
+
+[class*="block-grid-"] {
+  &.text-center {
+	> li {
+	  float: none;
+	  display: inline-block;
+	}
+  }
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+hr.clearfix{
+	border: 0;
+	margin: 0;
+}
+
+.article .icon-art_author{
+	font-size: 23px;
+}
