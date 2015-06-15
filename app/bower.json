@@ -1,10 +1,9 @@
 {
   "name": "tips-life",
-  "version": "0.1",
-  "authors": "Bohdan Hulchack <b.hulchak@delfit.com>",
+  "version": "1.0.0",
+  "authors": "Bohdan Hulchack <hulchak.bohdan@gmail.com>",
   "description": "",
-  "license": "Proprietary",
-  "private": true,
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

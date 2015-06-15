@@ -1,8 +1,8 @@
 {
-  "name": "Grunt",
+  "name": "Tips-life",
   "version": "1.0.0",
-  "description": "Test SMACSS App",
-  "main": "gruntfile.js",
+  "description": "Test Tips-life blog",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

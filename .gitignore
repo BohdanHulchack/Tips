@@ -1,0 +1,6 @@
+app/.bundle
+app/bower_components
+/node_modules
+/vendor
+app/.sass-cache
+dist/
